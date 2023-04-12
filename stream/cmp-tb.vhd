@@ -1,10 +1,10 @@
 LIBRARY ieee;
 USE ieee.std_logic_1164.ALL;
 
-ENTITY UART_RX_FSM IS
-END UART_RX_FSM;
+ENTITY cmp_tb IS
+END cmp_tb;
  
-ARCHITECTURE behavior OF UART_RX_FSM IS 
+ARCHITECTURE behavior OF cmp_tb IS 
    --Inputs
    signal clk : std_logic := '0';
    signal rst : std_logic := '1';
